@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <style>
+            
+            *{
+                box-sizing: border-box;
+            }
+
+            body{
+             font-family: latha;
+             color:rgb(255, 255, 255);
+             background-color: rgb(0, 0, 0);
+             background-size: cover;
+            }
+
+            .box{ width: 900px;
+              float: right;
+              border:1px solid ; 
+             }
+
+         .box ul li{
+              width: 120px;
+              float: left;
+              margin: 10px auto;
+              text-align: center;
+              
+            }
+
+           
+           .box ul li:hover{ background-color: rgb(200, 124, 124);}
+           .box ul li a:hover{ color:rgb(0, 0, 0)
+            }
+
+            .wd{
+                width: 300px;
+                height: 539px;
+                background-color: black;
+                opacity: 0.9;
+                padding: 55px;
+                
+            }
+
+            section{
+                padding:2rem 9%;
+                background: transparent;
+
+            }
+
+            .delivery{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1.5rem;
+                min-height: 100vh;
+                align-items: right;
+
+            }
+
+            .delivery .content{
+                flex: 1 1 40rem;
+                padding-top: 6.5rem;
+
+            }
+
+            .delivery .image  img{
+                width: 33.33%;
+                height: 200px;
+                padding: 5px;
+                animation: float 3s linear infinite;
+                float: right;
+                display: table;
+            }
+
+            @keyframes float{
+                0%, 100%{
+                    transform: translate(0rem);
+                }
+                50%{
+                    transform: translate(3rem);
+                }
+            }
+
+            .opt form , input[type="button"]
+            {
+              background-color: none;
+              color: rgb(0, 0, 0);
+              padding: 10px;
+              margin:-12px auto;
+              padding-left: 30px;
+              padding-right: 30px;
+              text-align: center;
+            }
+
+             form,  input[type="button"]:hover{background-color: gold;}
+    </style>
+    </head>
+        <body>
+            <div class="box">
+                <ul type="none">
+                  <li><a href="#" ></a>Delivery</li>
+                  <li><a href="#" ></a>Charges</li>
+                  <li><a href="#" ></a>Vegiterian</li>
+                  <li><a href="#" ></a>Non-vegiterian</li>
+                  <li><a href="#" ></a>Ratings</li>
+                </ul>
+              
+            </div>
+            <section class="delivery" id="delivery">
+
+                <div class="content">
+                    <h1>Food made with love..!</h1>
+                    
+                </div>
+                <div class="image">
+                    <img src="burger" alt="">
+                    <img src="hamburger" alt="">
+                    <img src="pizza" alt="">
+                    <img src="sandwitch" alt="">
+                    <img src="sushi" alt="">
+                    <img src="hotdog" alt="">
+                    
+                    
+                    
+                </div>
+           </section>
+            <div class="wd">
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+               
+                <div class="opt">
+                    <form action="" method="post">
+                        <input type="button" value="Order Now">
+                    </form>
+                </div>
+
+            </div>
+           
+            
+       </body>
+    
+</html>
