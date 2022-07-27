@@ -1,6 +1,7 @@
 I have done this website using HTML and CSS. This made me to gain more confidence about Myself.
 
-U can see this website using : <a href="https://fancy-strudel-f0c8af.netlify.app"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Netlify_logo.svg" width=30px height=40px></a>
+U can see this website using : 
+<a href="https://fancy-strudel-f0c8af.netlify.app"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Netlify_logo.svg" width=30px height=40px></a>
 
 My Project :
 
